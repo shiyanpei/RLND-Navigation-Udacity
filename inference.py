@@ -19,7 +19,7 @@ env = UnityEnvironment(file_name="./Banana.app")
 brain_name = env.brain_names[0]
 brain = env.brains[brain_name]
 agent=Agent(state_size=37, action_size=4, seed=0)
-agent.qnetwork_local.load_state_dict(torch.load('./ckpt/checkpoint.pth'))
+agent.qnetwork_local.load_state_dict(torch.load('.／checkpoint.pth'))
 
 
 env_info = env.reset(train_mode=False)[brain_name] # reset the environment
