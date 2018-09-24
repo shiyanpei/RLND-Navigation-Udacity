@@ -3,4 +3,9 @@
 
 ## Requirements 
 python 3.6 <br>pytorch 0.4.1<br>
-                 
+
+## Environment
+### installation
+```
+pip install unityagents
+```
