@@ -16,13 +16,13 @@ from unityagents import UnityEnvironment
 ### Then, download the environment
 Next, we will start the environment! Before running the code cell below, change the file_name parameter to match the location of the Unity environment that you downloaded.
 
-Mac: "path/to/Banana.app"
-Windows (x86): "path/to/Banana_Windows_x86/Banana.exe"
-Windows (x86_64): "path/to/Banana_Windows_x86_64/Banana.exe"
-Linux (x86): "path/to/Banana_Linux/Banana.x86"
-Linux (x86_64): "path/to/Banana_Linux/Banana.x86_64"
-Linux (x86, headless): "path/to/Banana_Linux_NoVis/Banana.x86"
-Linux (x86_64, headless): "path/to/Banana_Linux_NoVis/Banana.x86_64"
+Mac: "path/to/Banana.app"<br>
+Windows (x86): "path/to/Banana_Windows_x86/Banana.exe"<br>
+Windows (x86_64): "path/to/Banana_Windows_x86_64/Banana.exe"<br>
+Linux (x86): "path/to/Banana_Linux/Banana.x86"<br>
+Linux (x86_64): "path/to/Banana_Linux/Banana.x86_64"<br>
+Linux (x86, headless): "path/to/Banana_Linux_NoVis/Banana.x86"<br>
+Linux (x86_64, headless): "path/to/Banana_Linux_NoVis/Banana.x86_64"<br>
 For instance, if you are using a Mac, then you downloaded Banana.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
 ```
 env = UnityEnvironment(file_name="Banana.app")
@@ -39,8 +39,9 @@ python train.py
 ```
 python inference.py
 ```
-### The code of the agent is in agent.py, the pytorch model is in model.py
-### The plot of trainig scores is in scores.png
-### Report of algorithm is in Report of P1 Navigation.pdf
+### Code and files location
+The code of the agent is in agent.py, the pytorch model is in model.py<br>
+The plot of trainig scores is in scores.png<br>
+Report of algorithm is in Report of P1 Navigation.pdf<br>
 
 
