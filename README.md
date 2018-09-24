@@ -9,8 +9,7 @@ python 3.6 <br>pytorch 0.4.1<br>
 ```
 pip install unityagents
 ```
-<br>
-### and import the package
+### import the package
 ```
 from unityagents import UnityEnvironment
 ```
